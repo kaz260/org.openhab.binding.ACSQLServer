@@ -5,9 +5,9 @@ The SQLServer binding allows openHAB to act as an SQLServer client, so that open
 # Binding Configuration
 acsqlserver:url=jdbc:sqlserver://192.168.8.1:1433;databaseName\=<database_name>;
 
-acsqlserver:user=<user_name>
+"acsqlserver:user=<user_name>"
 
-acsqlserver:password=<password>
+"acsqlserver:password=<password>"
 
 # Items Configuration 
 Number DATA1 {acsqlserver="<[SELECT value FROM table WHERE id=1]"}
