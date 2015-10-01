@@ -9,6 +9,7 @@ acsqlserver:password=<password>
 
 # Items Configuration 
 Number DATA1 {acsqlserver="<[SELECT value FROM table WHERE id=1]"}
+
 Number DATA2 {acsqlserver="<[SELECT value FROM table WHERE id=1, >[UPDATE table SET value=? WHERE id=1]"}
 
 # Sitemap Configuration
