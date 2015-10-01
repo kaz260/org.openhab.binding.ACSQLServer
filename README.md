@@ -8,8 +8,8 @@ acsqlserver:user=<user_name>
 acsqlserver:password=<password>
 
 # Items Configuration 
-Number DATA1 {acsqlserver="<[SELECT <value> FROM <table> WHERE <where clause>]"}
-Number DATA2 {acsqlserver="<[SELECT <value> FROM <table> WHERE <where clause>, >[UPDATE <table> SET <value>=? WHERE <where clause>]"}
+Number DATA1 {acsqlserver="<[SELECT value FROM table WHERE id=1]"}
+Number DATA2 {acsqlserver="<[SELECT value FROM table WHERE id=1, >[UPDATE table SET value=? WHERE id=1]"}
 
 # Sitemap Configuration
 Setpoint item=DATA1 minValue=100 maxValue=200 step=10
