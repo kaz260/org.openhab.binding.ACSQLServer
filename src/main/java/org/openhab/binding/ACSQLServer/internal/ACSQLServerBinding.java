@@ -12,7 +12,7 @@ import org.openhab.binding.ACDBCommon.internal.ACDBBinding;
  * SQLServerバインディング処理
  * </p>
  *
- * @author NTT
+ * @author Kazuhiro Matsuda
  * @since 1.8.0
  */
 public class ACSQLServerBinding extends ACDBBinding {
