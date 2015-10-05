@@ -1,7 +1,3 @@
-/*
- * Copyright (C) 2015 NTT-AT.
- * All Rights Reserved.
- */
 package org.openhab.binding.ACSQLServer.internal;
 
 import org.openhab.binding.ACDBCommon.internal.ACDBBinding;
