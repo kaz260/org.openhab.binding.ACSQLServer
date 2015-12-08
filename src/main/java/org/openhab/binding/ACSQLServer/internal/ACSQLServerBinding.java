@@ -5,7 +5,7 @@ import org.openhab.binding.ACDBCommon.internal.ACDBBinding;
 
 /**
  * <p>
- * SQLServerバインディング処理
+ * SQLServer binding process
  * </p>
  *
  * @author Kazuhiro Matsuda
