@@ -5,7 +5,7 @@ import org.openhab.binding.ACDBCommon.internal.ACDBGenericBindingProvider;
 
 /**
  * <p>
- * SQLServerバインディングのプロバイダの実装
+ * SQLServer binding provider
  * </p>
  *
  * @author Kazuhiro Matsuda
